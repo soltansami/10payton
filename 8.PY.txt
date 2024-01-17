@@ -1,0 +1,4 @@
+ برنامه گرفتن اسکرین‌شات با پایتون
+import pyautogui
+screenshot = pyautogui.screenshot()
+screenshot.save("screenshot.png")
